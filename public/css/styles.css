@@ -1,0 +1,163 @@
+@media (min-width:1054px){
+    body{
+        margin: 0;
+        background-color: rgb(255, 255, 255);
+        font-family: 'Cardo', serif;
+    }
+    a{
+        text-decoration: none;
+        font-size: 1.6rem;
+        color: rgb(0, 0, 0);
+    }
+    span{
+        font-weight: bold;
+    }
+    
+    a:hover{
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 2px 8px white;
+        font-size: 1.75rem;
+    }
+    
+    #navbar{
+        position: fixed;
+        top:0px;
+        height: 60px;
+        width: 100%;
+        background-color: #d4cfc5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-link{
+        width: 100px;
+        height: 50%;
+        margin:0 6%;
+        text-align: center;
+    }
+    .exc{
+        color: #d4cfc5;
+    }
+ 
+    #menu-info{
+        display: none;
+    }
+    #menu{
+        display:none;
+    }
+    #menu-content{
+        display: none;
+    }
+
+}
+
+@media (max-width: 1054px) {
+    #menu-container{
+        animation-name: none;
+        width: 80%;
+        left: 10%;
+        top: 10%;
+        position: fixed;
+    }
+    #mobile-menu{
+        position: fixed;
+        left: 10%; /* 10% */
+        top: 10%;
+        width: 80%; /* 80% */
+        height: 80%;
+        opacity: 95%;
+        border-radius: 20px;
+        background-color:#b8b4ac;
+        z-index: 3;
+        border: 2px solid rgb(230, 0, 0);
+        display: none;
+        animation-name: none;
+        animation-duration: 0.3s;
+
+    }
+    @keyframes show{
+        from {
+            width: 20%;
+            left: 40%;
+        }
+        to{
+            width: 80%;
+            left: 10%;
+        }
+    }
+
+    @keyframes closing{
+        from{
+            width: 80%;
+            left: 10%;
+        }
+        to{
+            width: 20%;
+            left: 40%;
+        }
+    }
+
+    #menu-content{
+        position: fixed;
+        left: 20%;
+        top:10%;
+        width: 60%;
+        height: 80%;
+        z-index: 4;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        display: none;
+
+    }
+    #close{
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        font-weight: bold;
+        z-index: 5;
+        display: none;
+    }
+    a{
+        text-decoration: none;
+        font-size: 5vw;
+        color: rgb(0, 0, 0);
+    }
+    a:hover{
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 2px 8px white;
+        font-size: 5.5vh;
+    }
+    #navbar{
+        position: fixed;
+        top:0px;
+        left: 0px;
+        height: 60px;
+        width: 100%;
+        background-color: #d4cfc5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation-name: none;
+        animation-duration: 0.5s;
+    }
+    @keyframes hide{
+        from{
+            top:0px;
+        }to{
+            top:-60px;
+        }
+    }
+    @keyframes appear{
+        from{
+            top:-60px;
+        }
+        to{
+            top:0px
+        }
+    }
+
+    #bt1,#bt2,#bt3,#bt4{
+        display: none;
+    }
+}

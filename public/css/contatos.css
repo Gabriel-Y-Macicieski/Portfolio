@@ -1,0 +1,192 @@
+@media (min-width:1054px){
+   
+    #corpo-contato{
+        display: flex;
+        justify-content: space-between;
+        position:absolute;
+        width: 80%;
+        min-width: 900px;
+        left: 10%;
+        height: 800px;
+        top: 100px;
+        z-index: -1;
+    }
+    #redes-contatos{
+        margin-top: 150px;
+        width: 40%;
+        height: 500px;
+        background-color:rgb(240, 235, 227);
+        border-radius: 8%;
+        min-width: 400px;
+    }
+    #msg{
+        margin-top: 50px;
+        width: 50%;
+        height: auto;
+        min-width: 450px;
+    }
+    #rc-title{
+        position: relative;
+        top:-10px;
+        width: 400px;
+        height: 70px;
+        background-color: #d4cfc5;
+    }
+    #msg-title{
+        width: 450px;
+        height: 60px;
+        font-size: 40px;
+        background-color: #d4cfc5;
+        padding-top: 10px;
+        text-align: center;
+    }
+    #c-form{
+        width: 100%;
+        height: auto;
+        background-color: #ffffff;
+        position: relative;
+        top: 50px;
+    }
+    #c-form div{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .l1{
+        font-size: 30px;
+    }
+    .i1{
+        font-size: 30px;
+        padding: 15px;
+        width: 100%;
+        box-sizing: border-box;
+        background-color:#d4cfc5;
+        border: none;
+        border-radius: 10px;
+    }
+    .i1:focus{
+        background-color: rgb(240, 235, 227);
+    }
+    textarea{
+        width: 100%;
+        box-sizing: border-box;
+        background-color:#d4cfc5;
+        border: none;
+        font-size: 18px;
+        padding: 10px;
+        min-height: 100px;
+        resize: vertical;
+        border-radius: 10px;
+    }
+    textarea:focus{
+        background-color: rgb(240, 235, 227);
+    }
+    #c-form button{
+        border: 2px solid white;
+        box-shadow: 2px 2px 2px black;
+        border-radius: 10px;
+        background-color: #d4cfc5;
+        font-size: 30px;
+        padding: 16px 8px;
+        position: absolute;
+        right: 30px;
+        bottom: -25px;
+        z-index: 2;
+    }
+}
+
+@media (max-width: 1054px) {
+  
+    #corpo-contato{
+        position:absolute;
+        width: 80%;
+        left: 10%;
+        height: auto;
+        top: 100px;
+        z-index: -1;
+    }
+    #redes-contatos{
+        margin-top: 50px;
+        width: 90%;
+        left: 5%;
+        position: relative;
+        height: 500px;
+        background-color:rgb(240, 235, 227);
+        border-radius: 8%;
+        min-width: 400px;
+    }
+    #rc-title{
+        position: relative;
+        top:-10px;
+        width: 100%;
+        height: 70px;
+        background-color: #d4cfc5;
+    }
+    #msg{
+        margin-top: 100px;
+        margin-bottom: 150px;
+        width: 90%;
+        position: relative;
+        left: 5%;
+        height: auto;
+    }
+    #c-form{
+        width: 100%;
+        height: auto;
+        background-color: #ffffff;
+        position: relative;
+        padding-top: 50px;
+    }
+    #c-form div{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .l1{
+        font-size: 30px;
+    }
+    .i1{
+        font-size: 30px;
+        padding: 15px;
+        width: 100%;
+        box-sizing: border-box;
+        background-color:#d4cfc5;
+        border: none;
+        border-radius: 10px;
+    }
+    .i1:focus{
+        background-color: rgb(240, 235, 227);
+    }
+    textarea{
+        width: 100%;
+        box-sizing: border-box;
+        background-color:#d4cfc5;
+        border: none;
+        font-size: 18px;
+        padding: 10px;
+        min-height: 100px;
+        resize: vertical;
+        border-radius: 10px;
+    }
+    textarea:focus{
+        background-color: rgb(240, 235, 227);
+    }
+    #c-form button{
+        border: 2px solid white;
+        box-shadow: 2px 2px 2px black;
+        border-radius: 10px;
+        background-color: #d4cfc5;
+        font-size: 30px;
+        padding: 16px 8px;
+        position: absolute;
+        right: 30px;
+        bottom: -25px;
+        z-index: 2;
+    }
+    #msg-title{
+        width: 100%;
+        height: 60px;
+        font-size: 40px;
+        background-color: #d4cfc5;
+        padding-top: 10px;
+        text-align: center;
+    }
+}

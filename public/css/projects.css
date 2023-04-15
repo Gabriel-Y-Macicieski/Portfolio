@@ -1,0 +1,153 @@
+@media (min-width:1054px){
+    
+    #corpo-pj{
+        display: block;
+        position:relative;
+        width: 84%;
+        left: 8%;
+        height: auto;
+        top: 100px;
+        z-index: -1;
+    }
+
+    .project{
+        background-color: white;
+        margin: 50px 0;
+        z-index: 1;
+        width: 790px;
+        position: absolute;
+        height: 300px;
+    }
+    .pj{
+        height: 400px;
+        position: relative;
+    }
+    .project.esq{
+        left:5%;
+    }
+    .project.dir{
+        right:5%;
+    }
+
+    .project button{
+        border: 2px solid black;
+        border-radius: 10px;
+        background-color: #d4cfc5;
+        font-size: 30px;
+        padding: 10px 8px;
+    }
+    .project.esq button{
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+    }
+    .project.dir button{
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+
+    #pj-1 .pj-img{
+        height: 300px;
+        width: 300px;
+        background-color: #d4cfc5;
+        position: absolute;
+        left: 0px;
+    }
+    #pj-2 .pj-img{
+        position: absolute;
+        height: 300px;
+        width: 300px;
+        background-color: #d4cfc5;
+        right: 0px;
+    }
+    #pj-1 .pj-exp{
+        border: 2px solid #d4cfc5;
+        height: 300px;
+        width:62.2%;
+        box-sizing: border-box;
+        position: absolute;
+        right: 0;
+        
+    }
+    #pj-2 .pj-exp{
+        border: 2px solid #d4cfc5;
+        height: 300px;
+        width:62.2%;
+        box-sizing: border-box;
+        position: absolute;
+        left: 0;
+    }
+}
+
+
+
+@media (max-width: 1054px) {
+    
+    #corpo-pj{
+        display: block;
+        position:relative;
+        width: 84%;
+        left: 8%;
+        height: auto;
+        top: 100px;
+        z-index: -1;
+    }
+    .project{
+        background-color: white;
+        margin: 50px 0;
+        z-index: 1;
+        width: 90%;
+        position: absolute;
+        height: 600px;
+        left: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+    .pj{
+        height: 700px;
+        position: relative;
+    }
+    .project button{
+        border: 2px solid black;
+        border-radius: 10px;
+        background-color: #d4cfc5;
+        font-size: 30px;
+        padding: 10px 8px;
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+    }
+
+    #pj-1 .pj-img{
+        position: relative;
+        left: 10%;
+        height: 300px;
+        width: 80%;
+        background-color: #d4cfc5;
+    }
+    #pj-2 .pj-img{
+        position: relative;
+        left: 10%;
+        height: 300px;
+        width: 80%;
+        background-color: #d4cfc5;
+    }
+    #pj-1 .pj-exp{
+        position: relative;
+        left: 10%;
+        border: 2px solid #d4cfc5;
+        height: 300px;
+        width:80%;
+        box-sizing: border-box;
+        
+    }
+    #pj-2 .pj-exp{
+        position: relative;
+        left: 10%;
+        border: 2px solid #d4cfc5;
+        height: 300px;
+        width:80%;
+        box-sizing: border-box;
+    }
+}
